@@ -1,0 +1,32 @@
+{
+  "name": "performance-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "co": "^4.6.0",
+    "concat-stream": "^1.5.1",
+    "datalib": "^1.7.3",
+    "duplexer": "^0.1.1",
+    "express-generator": "^4.13.1",
+    "grunt-assemble": "^0.4.0",
+    "nodemon": "^1.8.1",
+    "phantomjs": "^2.1.7",
+    "request": "^2.72.0",
+    "split": "^1.0.0",
+    "standard-deviation": "^1.0.0",
+    "stream-combiner": "^0.2.2",
+    "tar": "^2.2.1",
+    "through2": "^2.0.1",
+    "through2-map": "^2.0.0",
+    "trumpet": "^1.7.2",
+    "vo": "^4.0.2",
+    "websocket-stream": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin <justin@fiddlyio.com>",
+  "license": "ISC"
+}
