@@ -1,19 +1,15 @@
 let Nightmare = require('nightmare');
 let harPlugin = require('nightmare-har-plugin');
-
-harPlugin.install(Nightmare);
-
 let options = {
   waitTimeout: 1000
 };
 
+harPlugin.install(Nightmare);
+
 let nightmare = Nightmare(Object.assign(harPlugin.getDevtoolsOptions(), options));
 
-let onContentLoad = [];
-let onLoad = [];
-
+// expects URL passed in as arg
 let url = process.argv[2];
-
 if (!url) {
     process.exit(1);
 }
