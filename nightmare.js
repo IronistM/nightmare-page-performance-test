@@ -1,7 +1,9 @@
+//"use strict";
+
 let Nightmare = require('nightmare');
 let harPlugin = require('nightmare-har-plugin');
 let options = {
-  waitTimeout: 1000
+  waitTimeout: 3000
 };
 
 harPlugin.install(Nightmare);
