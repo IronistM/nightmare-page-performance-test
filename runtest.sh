@@ -5,7 +5,7 @@ filename=results_$(date +%Y%m%d)_$(date +%H%M).csv
 directory='Output'
 
 # Do the runs!
-for counter in $(seq 1 2); # Needed to work on nmh 4.3 bash
+for counter in $(seq 1 100); # Needed to work on nmh 4.3 bash
 do
   echo $counter
   baseline=$(node nightmare.js 'https://www.e-food.gr/delivery/neo-hrakleio/e-fooders-caf')
