@@ -47,7 +47,8 @@ $ csvlook results_20170208_1016.csv
 |  3799.1010000000642 |                      |
 |---------------------+----------------------|
 ```
-
+# Descriptive statistics
+Now, take a look on the basic figures for our two pages.
 
 ```bash
 $ csvstat results_20170208_1016.csv -H
@@ -73,4 +74,9 @@ $ csvstat results_20170208_1016.csv -H
         Unique values: 86
 
 Row count: 100
+```
+# Schedule the script
+
+```bash
+$ at now +24 hours -f runtest.sh
 ```
