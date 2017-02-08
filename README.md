@@ -6,7 +6,7 @@ $ sh runtest.sh
 
 # Examine the data
 
-Assuming you have the awesome [csvkit](http://csvkit.readthedocs.io/en/1.0.1/index.html) then it is fairly easy to get a quick view of what you did in your runs. If not the get it with the following line of command.
+Assuming you have the awesome [csvkit](http://csvkit.readthedocs.io/en/1.0.1/index.html) then it is fairly easy to get a quick view of what you did in your runs. If not the get it with the following line of command (more info [here](http://csvkit.readthedocs.io/en/749/tricks.html#installation)).
 
 ```bash
 $ sudo pip install csvkit
